@@ -1,0 +1,61 @@
+*{
+margin: 0px;
+padding: 0px;
+box-sizing: border-box;
+}
+
+.page-footer{
+background-color:  #0e274f;
+color: #f6f5f5;
+height: 200px;
+align-items: center;
+position: relative;
+font-family: 'Baloo Thambi 2', cursive;
+
+}
+.row_foot {
+padding: 10px 20px;
+display: flex;
+justify-content: space-around;
+
+
+
+}
+.enquire_foot {
+padding: 25px;
+border: 1px;
+}
+
+.social_foot{
+padding: 25px;
+border: 1px;
+}
+
+.educator_foot{
+padding: 25px;
+border: 1px;
+}
+
+
+.container_footer{
+font-size: 12px;
+}
+
+.page-footer .footer-copyright{
+height:50px;
+text-align: center;
+position: absolute;
+bottom: 0px;
+color: #f6f5f5;
+padding-top: 20px;
+width: 100%;}
+
+.row_foot a{
+color: #f6f5f5;
+letter-spacing: 2px;
+}
+
+.row_foot a:hover{
+text-decoration: none;
+color: #cfcfcf;
+}

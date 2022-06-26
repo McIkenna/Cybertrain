@@ -1,0 +1,12 @@
+{% load static %}
+<link rel="stylesheet" href="{% static 'main/css/base.css' %}">
+<body>
+{% include "includes/navbar.html" %}
+ {% include "includes/messages.html" %}
+
+{% block content %}
+{% endblock %}
+
+{% include "includes/footer.html" %}
+</body>
+
